@@ -1,0 +1,75 @@
+.app {
+  background-color: lightcoral;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.game {
+  border: 2px solid gray;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: lightblue;
+  padding: 10px
+}
+
+.game-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell-row {
+  display: flex;
+  flex-direction: row;
+}
+.alive-cell {
+  margin: 2px;
+  width: 24px;
+  height: 24px;
+  background-color: firebrick;
+}
+
+.dead-cell {
+  margin: 2px;
+  width: 24px;
+  height: 24px;
+  background-color: aquamarine;
+}
+
+.center-children {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn {
+  color: #494949;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 5px;
+  border: 2px solid lightcoral;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  }
+
+  .btn:hover {
+  color: white;
+  background: lightcoral;
+  border-color: lightcoral;
+  transition: all 0.4s ease 0s;
+  }
+
+  .btn:focus {
+  outline: none;
+  }
